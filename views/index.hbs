@@ -1,2 +1,50 @@
-<h1>{{title}}</h1>
-<p>{{message}}</p>
+ <hr id="contentLine">
+ <section id="contents" class="contents-section bg-light">
+    <div class="container">
+
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5 desc">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="/images/{{extImg}}" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="contents-text text-center text-lg-left">
+            <h4>{{titleOne}}</h4>
+            <p class="text-black-50 mb-0">{{exteriorInfo}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="interior" class="row justify-content-center no-gutters mb-5 mb-lg-0 desc">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="/images/{{intImg}}" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="contents-text w-100 my-auto text-center text-lg-left">
+                <h4>{{titleTwo}}</h4>
+                <p class="mb-0">{{interiorInfo}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="performance" class="row justify-content-center no-gutters desc">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="/images/{{engImg}}" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="contents-text w-100 my-auto text-center text-lg-right">
+                <h4>{{titleThird}}</h4>
+                <p class="mb-0">{{performanceInfo}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>

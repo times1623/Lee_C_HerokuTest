@@ -1,7 +1,8 @@
 @import '_vars';
 // import vars.scss
-@import 'modules/_home';
-@import 'modules/_user';
+@import 'modules/_header';
+@import 'modules/_content';
+@import 'modules/_footer';
 
 a { 
     text-decoration: none;

@@ -1,0 +1,10 @@
+footer {
+    margin-top: 2rem;
+    color: black;
+    font-size: 5px;
+    text-transform: uppercase;
+
+    @media(min-width: 1200px) {
+        font-size: 1rem;
+    }
+}
